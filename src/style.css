@@ -29,3 +29,12 @@
   border: none;
   max-width: 150px !important;
 }
+
+.buy-product-image {
+  max-width: 200px !important;
+  max-height: 200px !important;
+}
+
+.product-body {
+  display: flex;
+}

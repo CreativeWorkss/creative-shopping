@@ -95,7 +95,7 @@ function SingleProductDetails() {
                   </button>
                 </div>
                 <div className="">
-                  <Link to={`/buy`}>
+                  <Link to={`/buy/${productId}`}>
                     <Button variant="dark" className="me-2 buy-now">
                       <BsFillLightningFill />
                       Buy Now

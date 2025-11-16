@@ -19,7 +19,7 @@ function App() {
         <Route path="product/:productId" element={<SingleProductDetails />} />
         <Route path="contact" element={<Contact />} />
         <Route path="cart" element={<Cart />} />
-        <Route path="buy" element={<Buy />} />
+        <Route path="buy/:productId" element={<Buy />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Fragment>
