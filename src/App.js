@@ -8,6 +8,7 @@ import PageNotFound from "./app/Pages/PageNotFound";
 import AllProducts from "./app/Pages/Products/AllProducts";
 import SingleProductDetails from "./app/Pages/Products/ProductDetails/SingleProductDetails";
 import Cart from "./app/Pages/Cart";
+import Buy from "./app/Pages/Buy";
 function App() {
   return (
     <Fragment>
@@ -18,6 +19,7 @@ function App() {
         <Route path="product/:productId" element={<SingleProductDetails />} />
         <Route path="contact" element={<Contact />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="buy" element={<Buy />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Fragment>

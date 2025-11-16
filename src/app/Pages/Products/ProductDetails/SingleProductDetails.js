@@ -93,9 +93,11 @@ function SingleProductDetails() {
                   </button>
                 </div>
                 <div className="">
-                  <Button variant="dark" className="me-2">
-                    Buy Now
-                  </Button>
+                  <Link to={`/buy`}>
+                    <Button variant="dark" className="me-2">
+                      Buy Now
+                    </Button>
+                  </Link>
                   <Button
                     variant="secondary"
                     className="ms-2"
