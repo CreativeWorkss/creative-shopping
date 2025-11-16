@@ -21,3 +21,11 @@
     rgb(216, 167, 177) 100%
   );
 }
+
+.buy-now,
+.add-cart {
+  width: 100%;
+  background-color: orange;
+  border: none;
+  max-width: 150px !important;
+}

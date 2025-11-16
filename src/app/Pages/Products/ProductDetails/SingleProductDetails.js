@@ -1,6 +1,8 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
+import { BsFillLightningFill } from "react-icons/bs";
+import { IoCartOutline } from "react-icons/io5";
 import TopNavbar from "../../../Coponents/Header/TopNavbar";
 import "./ProductDetails.css";
 import { FaPlus, FaMinus } from "react-icons/fa";
@@ -94,15 +96,17 @@ function SingleProductDetails() {
                 </div>
                 <div className="">
                   <Link to={`/buy`}>
-                    <Button variant="dark" className="me-2">
+                    <Button variant="dark" className="me-2 buy-now">
+                      <BsFillLightningFill />
                       Buy Now
                     </Button>
                   </Link>
                   <Button
                     variant="secondary"
-                    className="ms-2"
+                    className="ms-2 add-cart"
                     onClick={addToCart}
                   >
+                    <IoCartOutline />
                     Add To Cart
                   </Button>
                 </div>
