@@ -15,6 +15,11 @@ function TopNavbar() {
     <Navbar className={"navbar"} expand="lg">
       <Container>
         <NavLink to={"/"} className={"navbar-brand"}>
+          <img
+            style={{ height: "6vh", objectFit: "cover" }}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/CV_logo.png/960px-CV_logo.png?20220121111049"
+            alt="pure pu ladies bag"
+          />
           Creative Shopping
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
